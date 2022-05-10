@@ -1,0 +1,41 @@
+.container{
+color:white !important;
+padding:10px;
+margin-top:15px;
+margin-bottom:-15px;
+margin-left:30px;
+}
+.title{
+    font-size: 5vh;
+    font-weight:bolder;
+}
+.poster{
+    width:220px;
+    height:250px;
+    object-fit: contain;
+    margin-left: 15px;
+    transition:transform 450ms;
+    
+   
+    
+}
+
+.poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.posters{
+    
+    display: flex;
+    align-items: center;
+    height:255px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top:-20px;
+    padding-bottom:20px
+   
+}
+.posters::-webkit-scrollbar {
+    display: none; 
+    
+}

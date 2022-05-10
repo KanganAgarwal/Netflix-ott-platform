@@ -1,0 +1,39 @@
+.banner__header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 20px;
+  z-index: 50;
+ padding-right: 2vw;
+  
+}
+.btn2{
+    position: absolute!important;
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    right: 30px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px; 
+    cursor: pointer;
+    
+    } 
+    
+    .btn1{
+        cursor: pointer;
+        position: absolute!important;
+        width: 100px;
+        height: 60px;
+      background-color: "transparent";
+        color: black;
+        margin-top: 20px;
+        right: 150px;
+        font-weight: bold;
+        font-size: larger;
+        border-radius: 5px;
+        
+        }
+       
